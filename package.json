@@ -1,0 +1,39 @@
+{
+  "name": "xinfin-xdceconverter",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "@babel/preset-flow": "^7.0.0",
+    "@expo/samples": "2.1.1",
+    "@expo/vector-icons": "6.2.0",
+    "color": "3.0.0",
+    "hoist-non-react-statics": "3.0.1",
+    "moment": "2.18.1",
+    "react": "16.3.1",
+    "react-native": "^0.57.2",
+    "react-native-dropdownalert": "3.1.2",
+    "react-native-extended-stylesheet": "0.8.0",
+    "react-navigation": "2.5.5",
+    "react-redux": "5.0.4",
+    "redux": "4.0.0",
+    "redux-logger": "3.0.1",
+    "redux-saga": "0.16.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jest-react-native": "^18.0.0"
+  }
+}
