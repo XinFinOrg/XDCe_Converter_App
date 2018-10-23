@@ -5,6 +5,13 @@ const styles = EStyleSheet.create({
         fontSize:12,
         textAlign:'center'
     },
+    disclaimer:{
+        color:'$white',
+        textAlign:'center',
+        position: 'absolute',
+        bottom:0,
+        fontSize:11,
+    }
 
 });
 export default styles;

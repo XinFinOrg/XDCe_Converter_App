@@ -17,9 +17,10 @@ EStyleSheet.build({
   $inputText: '#797979',
   $darkText: '#343434',
 });
+console.log("default k pehle");
 
 export default () => (
-  <Provider store={store}>
+ <Provider store={store}>
   <AlertProvider>
     <Navigator onNavigationStateChange={null} />
     </AlertProvider>

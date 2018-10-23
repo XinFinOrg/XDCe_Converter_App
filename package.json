@@ -1,26 +1,26 @@
 {
-  "name": "xinfin-xdceconverter",
+  "name": "xdceconverter",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "react-native start",
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
-  },
-  "jest": {
-    "preset": "react-native"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
   },
   "dependencies": {
-    "@babel/preset-flow": "^7.0.0",
     "@expo/samples": "2.1.1",
-    "@expo/vector-icons": "6.2.0",
+    "@expo/vector-icons": "^8.0.0",
     "color": "3.0.0",
-    "hoist-non-react-statics": "3.0.1",
-    "moment": "2.18.1",
-    "react": "16.3.1",
-    "react-native": "^0.57.2",
+    "expo": "^30.0.1",
+    "expo-asset": "^1.1.0",
+    "expo-file-system": "^1.0.2",
+    "expo-font": "^1.0.0",
+    "expo-react-native-adapter": "^1.1.1",
+    "moment": "^2.22.2",
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.3",
+    "react-native-color": "0.0.10",
     "react-native-dropdownalert": "3.1.2",
-    "react-native-extended-stylesheet": "0.8.0",
+    "react-native-extended-stylesheet": "^0.8.0",
     "react-navigation": "2.5.5",
     "react-redux": "5.0.4",
     "redux": "4.0.0",
@@ -28,12 +28,12 @@
     "redux-saga": "0.16.0"
   },
   "devDependencies": {
-    "babel-preset-react-native-stage-0": "^1.0.1",
-    "eslint": "^5.6.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1",
-    "jest-react-native": "^18.0.0"
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "react-test-renderer": "16.6.0-alpha.8af6728"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }

@@ -8,9 +8,11 @@ function* fetchLatestConversionRates(action){
 
     try{
          let currency = action.currency;
+        
         if(currency === undefined){
          currency=yield select(state => state.currencies.baseCurrency);
         }
+        console.log(currency);
          const response = yield call(getLatestRate,currency);
          const result = yield response.json();
          if(result.error){

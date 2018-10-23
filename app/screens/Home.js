@@ -6,7 +6,7 @@ import { Container } from '../components/Container';
 import { Logo } from '../components/Logo';
 import { InputWithButton } from '../components/TextInput';
 import {ClearButton} from '../components/Button';
-import { LastConverted } from '../Text';
+import { LastConverted,Disclaimer } from '../Text';
 import { Header } from '../Header';
 import { swapCurrency,changeCurrencyAmount, getInitialConversion } from '../actions/currencies';
 
@@ -64,10 +64,10 @@ class Home extends Component{
   render(){
     let quotePrice;
     if(this.props.baseCurrency==='XDCE'){
-       quotePrice = (this.props.amount * this.props.conversionRate).toFixed(2);
+       quotePrice = (this.props.amount * this.props.conversionRate).toFixed(6);
     }
     else{
-       quotePrice = (this.props.amount / this.props.conversionRate).toFixed(2);
+       quotePrice = (this.props.amount / this.props.conversionRate).toFixed(6);
     }
     
     if(this.props.isFetching){
@@ -76,7 +76,7 @@ class Home extends Component{
     }
     return(
       <Container backgroundColor={this.props.primaryColor}>
-    <StatusBar translucent={false} barStyle="light-content" />
+    <StatusBar translucent={true} barStyle="light-content" />
     <Header onPress={this.handleOptionPress}/>
     <KeyboardAvoidingView behavior='padding'>
     <Logo />
@@ -96,18 +96,18 @@ class Home extends Component{
     value={quotePrice}
     textColor={this.props.primaryColor}
     />
-    <LastConverted
+    {/* <LastConverted
     base={this.props.quoteCurrency}
     quote={this.props.baseCurrency}
     date={this.props.lastConvertedDate}
     conversionRate={this.props.conversionRate}
-    />
+    /> */}
     <ClearButton
     text="Reverse Currencies"
     onPress={() => this.handleSwapCurrency(this.props.baseCurrency)}
     />
     </KeyboardAvoidingView>
-    
+    <Disclaimer/>
   </Container>
     );
     
