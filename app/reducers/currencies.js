@@ -1,6 +1,6 @@
 import {SWAP_CURRENCY,CHANGE_CURRENCY_AMOUNT,CHANGE_BASE_CURRENCY,CHANGE_QUOTE_CURRENCY, GET_INITIAL_CONVERSION, CONVERSION_RESULT, CONVERSION_ERROR} from '../actions/currencies';
 const initialState = {
-    baseCurrency:'INR',
+    baseCurrency:'USD',
     quoteCurrency:'XDCE',
     amount:100,
     conversions:{},
