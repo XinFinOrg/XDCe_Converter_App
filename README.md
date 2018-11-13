@@ -24,3 +24,5 @@ Disclaimer:The prices are fetched from the coinmarketcap and are estimated which
 
 
 ![SS1](https://github.com/XinFinOrg/XDCe_Converter_App/blob/master/screenshots/SS1.jpeg)
+![SS2](https://github.com/XinFinOrg/XDCe_Converter_App/blob/master/screenshots/SS2.jpeg)
+![SS3](https://github.com/XinFinOrg/XDCe_Converter_App/blob/master/screenshots/SS3.jpeg)
