@@ -23,6 +23,6 @@ You can enter any amount for which you want the converted price of XDCE.
 Disclaimer:The prices are fetched from the coinmarketcap and are estimated which may subject to change at any time.
 
 
-![SS1](https://github.com/XinFinOrg/XDCe_Converter_App/blob/master/screenshots/SS1.jpeg width="200" height="400")
+![SS1](https://github.com/XinFinOrg/XDCe_Converter_App/blob/master/screenshots/SS1.jpeg =250x250)
 ![SS2](https://github.com/XinFinOrg/XDCe_Converter_App/blob/master/screenshots/SS2.jpeg width="200" height="400")
 ![SS3](https://github.com/XinFinOrg/XDCe_Converter_App/blob/master/screenshots/SS3.jpeg width="200" height="400")
